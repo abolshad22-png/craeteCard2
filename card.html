@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> OWN CARD </title>
+    <meta name="Crate own card" content="Now you can creat your own card">
+    <meta name="author" content="Abolfazl">
+    <meta name="keywords" content="Card , own card , craete card , your card ">
+    <link rel="stylesheet" href="./card.css">
+    <link rel="icon" href="#">
+</head>
+<body>
+    
+    <div id="all">
+
+        <form id="form">
+            
+            <input type="text" id="name" placeholder="Enter your name" class="inptex">
+            <input type="text" id="num" maxlength="16" minlength="16" placeholder="Enter your card number" class="inptex">
+            <label for="time">Choose your time</label>
+            <input type="date" id="time">
+            <input type="text" id="cvv" maxlength="4" minlength="4" placeholder="CVV2" class="inptex">
+            <input type="color" id="color">
+            <input type="color" id="color2">
+            <textarea id="inpdes" maxlength="140" rows="3" cols="7" placeholder="Enter a description"></textarea>
+            <input type="color" id="textcolor">
+
+            <button type="submit" id="btn">CRAETE</button>
+
+        </form>
+
+
+        <div id="allcard">
+
+            <div id="frontcard">
+                <div id="dateplace" class="color3"></div>
+                <div id="cvvplace">CVV2 : <span id="cvvval" class="color3"></span>  </div>
+                <div id="numplace" class="color3"></div>
+                <div id="nameplace" class="color3"></div>
+            </div>
+
+            <div id="backcard">
+                <div id="white" class="color3"></div>
+                <div id="des" class="color3">  description  </div>
+                <div id="black"></div>
+
+            </div>
+
+        </div>
+
+        <button id="rotbtn" type="button"> BACK </button>
+
+    </div>
+
+
+
+
+    <script src="./card.js"></script>
+
+</body>
+</html>
